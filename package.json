@@ -1,0 +1,23 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "build": "postcss tailwindcss build public/css/tailwind.css -o public/css/styles.css -w"
+  },
+  "author": "Luis Viñas",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
